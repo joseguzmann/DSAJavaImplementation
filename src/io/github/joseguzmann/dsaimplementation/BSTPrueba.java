@@ -6,7 +6,7 @@ import java.util.LinkedList;
  * @author Jose Guzman
  */
 
-public class binaryTree {
+public class BSTPrueba {
     class Node {
         int value;
         Node right;
@@ -44,7 +44,7 @@ public class binaryTree {
     public boolean containsNodeRecursive(Node current, int value) {
         if(current == null) {
             return false;
-        } else if(value == current.value == true) {
+        } else if(value == current.value) {
             return true;
         } else {
             return value < current.value ? containsNodeRecursive(current.left, value) : containsNodeRecursive(current.right, value);
