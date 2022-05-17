@@ -172,4 +172,5 @@ public class BinarySearchTree<T extends Comparable> {
     boolean isEmpty() {
         return root == null;
     }
+
 }

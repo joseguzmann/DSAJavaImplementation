@@ -223,11 +223,19 @@ public class AVLTree<T extends Comparable<T>> {
         return node.getData();
     }
 
+    public Node<T> getRoot() {
+        return root;
+    }
+
     public T getMin() {
         if(isEmpty()) {
             return null;
         }
         return getMin(root);
+    }
+
+    public int getHeight() {
+        return root.getHeight();
     }
 
     boolean isEmpty() {
