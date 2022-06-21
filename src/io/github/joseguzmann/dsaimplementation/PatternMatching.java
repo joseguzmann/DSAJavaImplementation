@@ -131,6 +131,15 @@ public class PatternMatching {
                 j++; // la posición de j aumenta
             }
         }
+        System.out.println("Tabla de fallo de KMP");
+        for(char c : patron) {
+            System.out.print(c + " | ");
+        }
+        System.out.print("\n");
+        for(int i : fallo) {
+            System.out.print(i + " | ");
+        }
+        System.out.print("\n");
         return fallo;
     }
 }
