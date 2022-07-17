@@ -1,6 +1,6 @@
 # DSAJavaImplementation
 
-Implementation of Data Structures and Algorithms in Java with IntelliJ IDEA
+Implementation of Data Structures and Algorithms in Java with IntelliJ IDEA<br>
 Data structures implemented:<br>
 Stack<br>
 Queue<br>
